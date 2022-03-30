@@ -13,7 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func tapMe(_ sender: Any) {
+        //the background is going to change to my personality color blue
+        self.view.backgroundColor = UIColor.blue
+        
+    }
+    
 
 }
 
